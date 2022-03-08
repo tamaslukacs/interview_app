@@ -1,0 +1,8 @@
+tox
+portalocker
+pytest
+pytest-cov
+mypy
+flake8
+click
+portalocker
