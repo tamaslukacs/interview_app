@@ -3,6 +3,7 @@ import pytest
 from click.testing import CliRunner
 import sys
 
+
 # integ
 @pytest.fixture
 def mock_user_input(monkeypatch):
@@ -11,6 +12,7 @@ def mock_user_input(monkeypatch):
         return sys.argv[2], sys.argv[4], sys.argv[6], sys.argv[8]
 
     monkeypatch.setattr(cli, 'process_user_inputs', passthrough_process_user_inputs)
+
 
 # unit main
 @pytest.fixture

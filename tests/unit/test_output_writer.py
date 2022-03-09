@@ -2,7 +2,6 @@ import os.path
 # import portalocker
 from interview_app.output_writer import write_to_text_with_newlines
 import unittest
-from interview_app import config
 import os
 import pytest
 from tutils import get_file_contents_as_list
@@ -36,7 +35,7 @@ class TestOutputWriter(unittest.TestCase):
         answer_list = ["a", "b", "c"]
         resultfile = r"/*- \res.txt"
         self.filepath_created = resultfile
-        with pytest.raises(RuntimeError) as pytest_wrapped_e:
+        with pytest.raises(RuntimeError) as _:
             # with portalocker.Lock(filename=resultfile, mode="w", flags=portalocker.LOCK_EX) as fh:
             # portalocker fails on ubuntu for some reason
             write_to_text_with_newlines(answer_list, resultfile)

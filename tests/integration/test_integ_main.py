@@ -4,8 +4,7 @@ from interview_app import cli
 import unittest
 import pytest
 import os
-from fixtures import mock_user_input
-from tutils import get_example_input_filepath,get_file_contents_as_list
+from tutils import get_example_input_filepath, get_file_contents_as_list
 from _pytest.monkeypatch import MonkeyPatch
 
 
@@ -13,17 +12,15 @@ def passthrough_process_user_inputs(dictionaryfile=1, startword=2, endword=3, re
     return sys.argv[2], sys.argv[4], sys.argv[6], sys.argv[8]
 
 
-
-
 class TestOutputWriter(unittest.TestCase):
 
     def setUp(self):
-        #store temporarily created result file in this variable
+        # store temporarily created result file in this variable
         self.filepath_created = None
         self.monkeypatch = MonkeyPatch()
 
     def tearDown(self):
-        #cleanup result file after test has run
+        # cleanup result file after test has run
         if self.filepath_created is not None:
             try:
                 os.remove(self.filepath_created)
@@ -43,7 +40,7 @@ class TestOutputWriter(unittest.TestCase):
         self.filepath_created = args[-1]
         sys.argv[1:] = args
         self.monkeypatch.setattr(cli, 'process_user_inputs', passthrough_process_user_inputs)
-        with pytest.raises(SystemExit) as pytest_wrapped_e:
+        with pytest.raises(SystemExit) as _:
             main()
         assert os.path.isfile(args[-1])
         assert get_file_contents_as_list(args[-1]) == solultion
@@ -57,11 +54,9 @@ class TestOutputWriter(unittest.TestCase):
                 "yang",
                 "--ResultFile",
                 "res.txt"]
-        solultion = ["Spin", "Spit", "Spot"]
         self.filepath_created = args[-1]
         sys.argv[1:] = args
         self.monkeypatch.setattr(cli, 'process_user_inputs', passthrough_process_user_inputs)
-        with pytest.raises(SystemExit) as pytest_wrapped_e:
+        with pytest.raises(SystemExit) as _:
             main()
         assert not os.path.isfile(args[-1])
-        #assert get_file_contents_as_list(args[-1]) == solultion
