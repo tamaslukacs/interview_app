@@ -35,8 +35,15 @@ class TestOutputWriter(unittest.TestCase):
         answer_list = ["a", "b", "c"]
         resultfile = "res.txt"
         self.filepath_created = resultfile
+        if not os.path.isfile(resultfile):
+            try:
+                with open(resultfile, "w")as f:
+                    f.write("")
+            except Exception as e:
+                print(e)
         with pytest.raises(RuntimeError) as pytest_wrapped_e:
-            with portalocker.Lock(resultfile, 'w') as fh:
+
+            with portalocker.Lock(resultfile, 'w', portalocker.LOCK_EX) as fh:
                 write_to_text_with_newlines(answer_list,resultfile)
 
 
