@@ -1,6 +1,8 @@
 # InterviewApp - A BluePrism Interview Project
 
-An interview project to showcase [Tamás'] python skills.
+An interview project to showcase my python skills.
+
+https://tamaslukacs.github.io/
 
 ##Project Architecture
 
@@ -211,4 +213,3 @@ ___
 
 ___
 ![Tests](https://github.com/tamaslukacs/interview_app/actions/workflows/tests.yml/badge.svg)
-[Tamás']: https://tamaslukacs.github.io/
