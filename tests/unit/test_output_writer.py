@@ -36,7 +36,7 @@ class TestOutputWriter(unittest.TestCase):
         resultfile = "res.txt"
         self.filepath_created = resultfile
         with pytest.raises(RuntimeError) as pytest_wrapped_e:
-            with portalocker.Lock(resultfile, 'w', timeout=10) as fh:
+            with portalocker.Lock(resultfile, 'w') as fh:
                 write_to_text_with_newlines(answer_list,resultfile)
 
 
