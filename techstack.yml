@@ -1,11 +1,12 @@
 repo_name: tamaslukacs/interview_app
 report_id: 969d0bf372714a658da86c406d5ada55
+version: 0.1
 repo_type: Public
-timestamp: '2023-12-03T15:14:22+00:00'
+timestamp: '2024-01-05T08:29:04+00:00'
 requested_by: tamaslukacs
 provider: github
 branch: main
-detected_tools_count: 11
+detected_tools_count: 13
 tools:
 - name: Python
   description: A clear and powerful object-oriented programming language, comparable
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/tamaslukacs/interview_app
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -25,6 +27,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/tamaslukacs/interview_app
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -34,6 +37,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/tamaslukacs/interview_app/blob/main/.github/workflows/tests.yml
   detection_source: ".github/workflows/tests.yml"
   last_updated_by: tamaslukacs
   last_updated_on: 2022-03-08 23:44:04.000000000 Z
@@ -45,6 +49,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/tamaslukacs/interview_app/blob/main/requirements_dev.txt
   detection_source: requirements_dev.txt
   last_updated_by: tamaslukacs
   last_updated_on: 2022-03-08 23:44:04.000000000 Z
@@ -56,6 +61,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/4838/default_c37162891c64eca7fafe782d9c191e409aae1e93.png
+  detection_source_url: https://github.com/tamaslukacs/interview_app/blob/main/requirements_dev.txt
   detection_source: requirements_dev.txt
   last_updated_by: tamaslukacs
   last_updated_on: 2022-03-08 23:44:04.000000000 Z
@@ -68,6 +74,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
   image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
+  detection_source_url: https://github.com/tamaslukacs/interview_app/blob/main/requirements_dev.txt
   detection_source: requirements_dev.txt
   last_updated_by: tamaslukacs
   last_updated_on: 2022-03-08 23:44:04.000000000 Z
@@ -78,6 +85,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/7350/eaca159133a3901e24ddb407d1235c25_normal.png
+  detection_source_url: https://github.com/tamaslukacs/interview_app/blob/main/requirements_dev.txt
   detection_source: requirements_dev.txt
   last_updated_by: tamaslukacs
   last_updated_on: 2022-03-08 23:44:04.000000000 Z
@@ -88,6 +96,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/4825/OhsWgbsr_normal.png
+  detection_source_url: https://github.com/tamaslukacs/interview_app/blob/main/requirements_dev.txt
   detection_source: requirements_dev.txt
   last_updated_by: tamaslukacs
   last_updated_on: 2022-03-08 23:44:04.000000000 Z
@@ -100,7 +109,21 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19830/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/tamaslukacs/interview_app/blob/main/requirements.txt
   detection_source: requirements.txt
+  last_updated_by: tamaslukacs
+  last_updated_on: 2022-03-08 23:44:04.000000000 Z
+- name: mypy
+  description: Optional static typing for Python
+  package_url: https://pypi.org/project/mypy
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20219/default_d4dd0466552a9776ca8535b869e22a3362790c94.png
+  detection_source_url: https://github.com/tamaslukacs/interview_app/blob/main/requirements_dev.txt
+  detection_source: requirements_dev.txt
   last_updated_by: tamaslukacs
   last_updated_on: 2022-03-08 23:44:04.000000000 Z
 - name: portalocker
@@ -112,6 +135,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20277/default_267c21fe20acb6a3a56ea60f8b271e1ab445049d.png
+  detection_source_url: https://github.com/tamaslukacs/interview_app/blob/main/requirements_dev.txt
   detection_source: requirements_dev.txt
   last_updated_by: tamaslukacs
   last_updated_on: 2022-03-08 23:44:04.000000000 Z
@@ -124,6 +148,20 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19958/default_e91a78767854f0fa80aab2f13d1a25b15ca2d278.png
+  detection_source_url: https://github.com/tamaslukacs/interview_app/blob/main/requirements_dev.txt
+  detection_source: requirements_dev.txt
+  last_updated_by: tamaslukacs
+  last_updated_on: 2022-03-08 23:44:04.000000000 Z
+- name: tox
+  description: Tox is a generic virtualenv management and test command line tool
+  package_url: https://pypi.org/project/tox
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19991/default_f2178576c59f6927768590a32b6ef092891768c5.png
+  detection_source_url: https://github.com/tamaslukacs/interview_app/blob/main/requirements_dev.txt
   detection_source: requirements_dev.txt
   last_updated_by: tamaslukacs
   last_updated_on: 2022-03-08 23:44:04.000000000 Z
