@@ -30,7 +30,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [tamaslukacs/interview_app](https://github.com/tamaslukacs/interview_app)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|11<br/>Tools used|12/03/23 <br/>Report generated|
+|13<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -114,15 +114,17 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (3)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (5)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg'/> PyPI (3)
+## <img width='24' height='24' src='https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg'/> PyPI (5)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
 |[click](https://pypi.org/project/click)|N/A|03/08/22|tamaslukacs |BSD-3-Clause|N/A|
+|[mypy](https://pypi.org/project/mypy)|N/A|03/08/22|tamaslukacs |MIT|N/A|
 |[portalocker](https://pypi.org/project/portalocker)|N/A|03/08/22|tamaslukacs |BSD-3-Clause|N/A|
 |[pytest-cov](https://pypi.org/project/pytest-cov)|N/A|03/08/22|tamaslukacs |MIT|N/A|
+|[tox](https://pypi.org/project/tox)|N/A|03/08/22|tamaslukacs |MIT|N/A|
 
 <br/>
 <div align='center'>
