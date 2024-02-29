@@ -4,9 +4,9 @@
 tamaslukacs/interview_app is built on the following main stack:
 
 - [Python](https://www.python.org) – Languages
-- [pytest](http://pytest.org/latest/) – Testing Frameworks
-- [flake8](https://github.com/PyCQA/flake8) – Code Review
 - [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- [flake8](https://github.com/PyCQA/flake8) – Code Review
+- [pytest](http://pytest.org/latest/) – Testing Frameworks
 
 Full tech stack [here](/techstack.md)
 
@@ -17,9 +17,9 @@ Full tech stack [here](/techstack.md)
 tamaslukacs/interview_app is built on the following main stack:
 
 - <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png' alt='pytest'/> [pytest](http://pytest.org/latest/) – Testing Frameworks
-- <img width='25' height='25' src='https://img.stackshare.io/service/4838/default_c37162891c64eca7fafe782d9c191e409aae1e93.png' alt='flake8'/> [flake8](https://github.com/PyCQA/flake8) – Code Review
 - <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- <img width='25' height='25' src='https://img.stackshare.io/service/4838/default_c37162891c64eca7fafe782d9c191e409aae1e93.png' alt='flake8'/> [flake8](https://github.com/PyCQA/flake8) – Code Review
+- <img width='25' height='25' src='https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png' alt='pytest'/> [pytest](http://pytest.org/latest/) – Testing Frameworks
 
 Full tech stack [here](/techstack.md)
 
@@ -30,7 +30,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [tamaslukacs/interview_app](https://github.com/tamaslukacs/interview_app)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|13<br/>Tools used|01/05/24 <br/>Report generated|
+|13<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
